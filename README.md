@@ -127,7 +127,7 @@ http://127.0.0.1:8000/docs
 
 ## ⚠️ Notes
 
-* GitHub API has rate limits, so scraping is limited to 20 pages
+* A 1-second delay was added between requests to reduce the chances of hitting GitHub API rate limits and ensure smoother execution.
 * Duplicate users are avoided using unique constraints
 * Environment variables are managed using `.env`
 
