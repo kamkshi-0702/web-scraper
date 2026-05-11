@@ -1,6 +1,6 @@
-# Web Scraping + FastAPI CRUD Application
+Web Scraping + FastAPI CRUD Application
 
-## Project Overview
+Project Overview
 
 This project demonstrates a complete backend workflow that includes:
 
@@ -11,7 +11,7 @@ This project demonstrates a complete backend workflow that includes:
 
 ---
 
-## Tech Stack
+Tech Stack
 
 * Python 3.x
 * FastAPI
@@ -23,7 +23,7 @@ This project demonstrates a complete backend workflow that includes:
 
 ---
 
-## Project Structure
+Project Structure
 
 ```
 web-scraper-fastapi/
@@ -46,22 +46,21 @@ web-scraper-fastapi/
 
 ---
 
-## Setup Instructions
-
-### 1. Clone the repository
+Setup Instructions
+1. Clone the repository
 
 ```
 git clone <your-repo-link>
 cd web-scraper-fastapi
 ```
 
-### 2. Create virtual environment
+2. Create virtual environment
 
 ```
 python -m venv venv
 ```
 
-### 3. Activate environment
+3. Activate environment
 
 **Windows (PowerShell):**
 
@@ -71,7 +70,7 @@ python -m venv venv
 
 ---
 
-### 4. Install dependencies
+4. Install dependencies
 
 ```
 pip install -r requirements.txt
@@ -79,9 +78,9 @@ pip install -r requirements.txt
 
 ---
 
-## Running the Project
+Running the Project
 
-### Step 1: Run the scraper
+Step 1: Run the scraper
 
 ```
 python -m app.scraper
@@ -93,16 +92,14 @@ This will:
 * Store it in SQLite database (`test.db`)
 
 ---
-
-### Step 2: Start FastAPI server
+Step 2: Start FastAPI server
 
 ```
 uvicorn app.main:app --reload
 ```
 
 ---
-
-### Step 3: Access API Docs
+Step 3: Access API Docs
 
 Open in browser:
 
@@ -112,7 +109,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## 📡 API Endpoints
+API Endpoints
 
 | Method | Endpoint               | Description    |
 | ------ | ---------------------- | -------------- |
@@ -125,7 +122,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Notes
+Notes
 
 * A 1-second delay was added between requests to reduce the chances of hitting GitHub API rate limits and ensure smoother execution.
 * Duplicate users are avoided using unique constraints
@@ -133,7 +130,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Features
+Features
 
 * Modular architecture
 * Pagination support
@@ -143,7 +140,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Deliverables
+Deliverables
 
 * Complete backend system
 * Scraper + Database + API
@@ -151,6 +148,6 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Author
+Author
 
 Kamakshi Chinta
